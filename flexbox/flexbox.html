@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .carre{
+            background-color: black;
+            width: 150px;
+            height: 150px;
+        }
+        .rectangle{
+            background-color: rgb(88, 19, 216);
+            width: 150px;
+            height: 150px;
+        }
+        .rond{
+            background-color: rgb(170, 50, 50);
+            width: 150px;
+            height: 150px;
+            border-radius: 150px;
+        }
+        .container{
+            border: 3px solid black;
+            height:max-content;
+            margin: 0;
+            padding: 0;
+            flex-direction: column;
+            /* align-items:center ;
+            justify-content: center; */
+        }
+    </style>
+</head>
+<body  class="container">
+    <div>
+        <div class="carre"></div>
+        <div class="rond"></div>
+        <div class="rectangle"></div>
+    </div>
+</body>
+</html>
